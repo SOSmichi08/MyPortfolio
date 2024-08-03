@@ -1,0 +1,61 @@
+:root {
+  --color-text: #ffffff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+}
+
+/* Classic Mode */
+.classic {
+  --color-text: #ffffff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+}
+
+/* High Contrast Mode */
+.highContrast {
+  --color-text: #ffffff;
+  --color-primary: #a1b5e6;
+  --color-secondary: #19376d;
+  --color-dark: #04152d;
+  --color-bg: #000814;
+}
+
+/* Soft Mode */
+.soft {
+  --color-text: #dfe4ea;
+  --color-primary: #8199c7;
+  --color-secondary: #2d4776;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+}
+
+/* Cool Mode */
+.cool {
+  --color-text: #ffffff;
+  --color-primary: #6699cc;
+  --color-secondary: #274d7b;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+}
+
+/* Dark Mode */
+.dark {
+  --color-text: #ffffff;
+  --color-primary: #4d649d;
+  --color-secondary: #162b5b;
+  --color-dark: #0a1b37;
+  --color-bg: #020e20;
+
+
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}
+
+
+
+

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "BWTunes",
+    "imageSrc": "projects/BWTunes_Logo.png",
+    "description": "This is a project made with a fellow colleague using basic front-end languages to provide a premium musicstore solution for customers in need of good Sound Quality Tracks.",
+    "skills": ["JS", "HTML","CSS", "Bootstrap"],
+    "demo": "https://BWTunes.netlify.app",
+    "source": "https://github.com/1curafu/team-projekt-imst23a"
+  },
+  {
+    "title": "My Portfolio",
+    "imageSrc": "projects/pf.png",
+    "description": "This is a project made to display my qualifications as a programmer and to showcase my skills I've learned so far.",
+    "skills": ["React", "HTML", "JS", "CSS", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/SOSmichi08/Portfolio-Project"
+  }
+]

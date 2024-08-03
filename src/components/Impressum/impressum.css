@@ -1,0 +1,112 @@
+:root {
+  --color-text: #ffffff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+}
+
+/* Classic Mode */
+.classic {
+  --color-text: #ffffff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+}
+
+/* High Contrast Mode */
+.highContrast {
+  --color-text: #ffffff;
+  --color-primary: #a1b5e6;
+  --color-secondary: #19376d;
+  --color-dark: #04152d;
+  --color-bg: #000814;
+}
+
+/* Soft Mode */
+.soft {
+  --color-text: #dfe4ea;
+  --color-primary: #8199c7;
+  --color-secondary: #2d4776;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+}
+
+/* Cool Mode */
+.cool {
+  --color-text: #ffffff;
+  --color-primary: #6699cc;
+  --color-secondary: #274d7b;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+}
+
+/* Dark Mode */
+.dark {
+  --color-text: #ffffff;
+  --color-primary: #4d649d;
+  --color-secondary: #162b5b;
+  --color-dark: #0a1b37;
+  --color-bg: #020e20;
+}
+
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.impressum-container {
+  background-color: var(--color-dark);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+p {
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.theme-buttons {
+  margin-top: 20px;
+}
+
+.theme-buttons button {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.theme-buttons button:hover {
+  background-color: var(--color-secondary);
+  transform: scale(1.05);
+}
+
+.theme-buttons button:active {
+  transform: scale(0.95);
+}
+
+iframe {
+outline-style: none ! important;
+outline-offset: 0px ! important;
+}
+

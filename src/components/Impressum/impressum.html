@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/Impressum/impressumlogo.png" />
+
+    <title>Impressum</title>
+    <link rel="stylesheet" href="impressum.css">
+</head>
+<body class="classic">
+    <div class="impressum-container">
+        <h1>Impressum</h1>
+        <p>Responsible for content:</p>
+        <p>Karl Zenker</p>
+        <p>Ilgenstrasse 1</p>
+        <p>Lachen SZ, Switzerland</p>
+        <iframe  width="500px" height="200px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2711.059746449341!2d8.852593875959233!3d47.195843116252604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ab6129109eb2b%3A0x6fe8739dbf890506!2sIlgenstrasse%201%2C%208853%20Lachen!5e0!3m2!1sen!2sch!4v1720974701762!5m2!1sen!2sch" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <p>Email: karl.e.zenker@gmail.com</p>
+        <p>Phone: +41762330640</p>
+
+        <div class="theme-buttons">
+            <h2>Change Theme</h2>
+            <button onclick="changeTheme('classic')">Classic</button>
+            <button onclick="changeTheme('highContrast')">High Contrast</button>
+            <button onclick="changeTheme('soft')">Soft</button>
+            <button onclick="changeTheme('cool')">Cool</button>
+            <button onclick="changeTheme('dark')">Dark</button>
+        </div>
+    </div>
+
+    <script>
+        function changeTheme(theme) {
+            document.body.className = theme;
+        }
+    </script>
+</body>
+</html>

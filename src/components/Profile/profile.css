@@ -1,0 +1,73 @@
+/* Apply the global color variables */
+:root {
+    --color-text: #ffffff;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+  }
+  
+  /* Profile Page */
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: var(--color-primary);
+  }
+  
+  p {
+    color: var(--color-primary);
+    line-height: 1.6;
+  }
+
+  a {
+    color: var(--color-text) !important;
+  }
+  
+  /* Document Links */
+  .document-link {
+    color: var(--color-text);
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  a:hover {
+    text-decoration: underline !important;
+  }
+  
+  /* Buttons */
+  .button {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.9s;
+  }
+  
+  .button:hover {
+    background-color: var(--color-secondary);
+    transform: scale(1.1);
+  }
+
+  #downloadMsg {
+    background-color: var(--color-primary);
+    color: var(--color-text) !important;
+    padding-left: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 730px;
+    transition: 0,9s;
+  }
+  
+  #downloadMsg :hover{
+    transform: scale(10.2);
+  }

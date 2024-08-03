@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Software Engineer Student",
+    "organisation": "IMS Rapperswil",
+    "startDate": "Aug, 2023",
+    "endDate": "Present",
+    "experiences": ["Worked on multiple Projects", "Helping others structure and improve their projects"],
+    "imageSrc": "history/bwz_logo.png"
+  },
+  {
+    "role": "Student",
+    "organisation": "Sek 1 March",
+    "startDate": "Aug, 2020",
+    "endDate": "Jul, 2023",
+    "experiences": ["Was a Student on the level of Sek A"],
+    "imageSrc": "history/sek1marchlogo.png"
+  },
+  {
+    "role": "Student",
+    "organisation": "Primarschule Seefeld",
+    "startDate": "Aug, 2015",
+    "endDate": "Jul, 2020",
+    "experiences": [
+      "Was a Student there and took frequent LEA classes",
+      "I skipped the third grade at this school"
+    ],
+    "imageSrc": "history/logo_seefeld.png"
+  }
+]
